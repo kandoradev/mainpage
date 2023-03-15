@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@next/font": "^13.2.4",
+    "grommet": "^2.30.0",
+    "grommet-icons": "^4.10.0",
+    "styled-components": "^5.3.9"
+  }
+}
