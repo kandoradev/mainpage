@@ -17,7 +17,7 @@ const Home: NextPage = () => {
       alt="profilepic" 
       />
         <h1 className="text-white font-lato font-black text-5xl">Hello there! I'm Kandora </h1>
-        <p className="text-white font-black text-2xl mt-4 font-lato">full stack developer, based in New Jersey.</p>
+        <p className="text-white font-black text-2xl mt-4 font-lato">full stack developer, based in the Dominican Republic.</p>
         <h1 className="text-white font-sono font-black mt-12 text-3xl">- Projects -</h1>
         <div className=" text-white flex flex-row items-center justify-center gap-5 p-5 font-lato font-black">
         <button className="underline p-2 font-sono">supplyEyes</button>
@@ -26,8 +26,8 @@ const Home: NextPage = () => {
         <h1 className="text-white font-sono font-black mt-12 text-3xl">- Open Source Contributions -</h1>
         <div className=" text-white flex flex-row items-center justify-center gap-5 p-5 font-lato font-black">
         <button type="button" onClick={() => router.push('https://github.com/reactjs/reactjs.org/issues/5593')} className="underline p-2 font-sono">React, issue #5593</button>
-        <button className="underline rounded-lg p-2 font-sono">Bun</button>
-        <button className="underline p-2 font-sono">Vercel</button>
+        <button className="underline rounded-lg p-2 font-sono">Bun</button> // this is an example 
+        <button className="underline p-2 font-sono">Vercel</button> // this is an example 
         </div>
         <div className=" text-white flex flex-row items-center justify-center gap-5 p-5 mt-10 font-lato font-black text-1xl">
         <button type="button" onClick={() => router.push('mailto:kandoradev@gmail.com')} className="outline rounded-lg p-2">kandoradev@gmail.com</button>
